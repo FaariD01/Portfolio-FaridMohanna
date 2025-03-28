@@ -1,0 +1,90 @@
+.navbar{
+    height: 40vh;
+    background-color: #111723;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nombre_y_titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 4vh;
+    margin-left: 10vh;
+   
+    
+}
+
+.nombre_y_titulo h1{
+    font-weight: 100;
+    margin-bottom: -4vh;
+    background: 
+    linear-gradient( #ee08db, #8802c7);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    animation-name: nombre_y_titulo;
+    animation-duration: 1.5s ;
+    
+}
+.nombre_y_titulo h2{
+    
+    font-weight: 100;
+    background: 
+        linear-gradient(#ee08db, #8802c7);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    animation-name: nombre_y_titulo;
+    animation-duration: 1.5s ;
+    
+}
+@keyframes nombre_y_titulo {
+    0%   {margin-left: -30vh}
+    100% {margin-left: 0vh}
+  }
+
+
+.menuNavegacion{
+    display: flex;
+    justify-content: center;
+    margin-right: 10vh;
+    animation-name: menuNavegacion;
+    animation-duration: 2s; 
+
+}
+
+.menuNavegacion ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.233);
+    height: 6vh;
+    width: 80vh;
+    list-style: none;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.navlink{
+    color: white;
+    text-decoration: none;
+}:hover{
+    color: #ee08db;
+}
+
+@keyframes menuNavegacion{
+    0% { opacity: 0%; }
+    100% {opacity: 100%;}
+}
+
+.category{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.category-active{
+
+    color: #ee08db;
+    text-decoration: none;
+
+}

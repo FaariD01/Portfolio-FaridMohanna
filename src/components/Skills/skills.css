@@ -1,0 +1,38 @@
+.sectionSkills{
+    background-color: #111723;
+    
+}
+
+.listadoSkills{
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 6vh;
+    flex-wrap: wrap;
+    margin: 0vh 20vh 0vh 20vh;
+    
+}
+
+.imgSkills{
+    height: 10vh;
+    transition: .5s;
+}
+
+.imgSkills:hover{
+    height: 13vh;
+}
+
+.tituloSkills{
+    margin: 0px;
+    padding: 0px;
+    background: 
+    linear-gradient( #ee08db, #8802c7);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 100;
+    font-size: 6vh;
+    padding: 5vh;
+}
