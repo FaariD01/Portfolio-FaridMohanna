@@ -64,10 +64,12 @@
     border: 1px solid rgb(255, 255, 255);
 }
 
-.navlink{
+a{
     color: white;
     text-decoration: none;
-}:hover{
+}
+
+a:hover{
     color: #ee08db;
 }
 

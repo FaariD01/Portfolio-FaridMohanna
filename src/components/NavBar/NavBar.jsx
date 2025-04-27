@@ -11,12 +11,11 @@ const NavBar = () => {
         </div>
         <div className="menuNavegacion">
           <ul>
-            <NavLink className={({isActive} )=> isActive ? "category-active" : "category"}to="/">Inicio</NavLink>
-            <NavLink className={({isActive} )=> isActive ? "category-active" : "category"} to="1">Servicios</NavLink>
-            <NavLink className={({isActive} )=> isActive ? "category-active" : "category"} to="2">Habilidades</NavLink>
-            <NavLink className={({isActive} )=> isActive ? "category-active" : "category"} to="3">Portfolio</NavLink>
-            <NavLink className={({isActive} )=> isActive ? "category-active" : "category"} to="4">Contacto</NavLink>
-            <NavLink className={({isActive} )=> isActive ? "category-active" : "category"} to="5">Redes Sociales</NavLink>
+            <li><a href="/" >Inicio</a></li>
+            <li><a href="#skills" >Habilidades</a> </li>
+            <li><a href="#Services" >Servicios</a> </li>
+            <li><a href="#portfolio" >Portfolio</a> </li>
+            <li><a href="" >Contacto</a> </li>
           </ul>
         </div>
       </nav>

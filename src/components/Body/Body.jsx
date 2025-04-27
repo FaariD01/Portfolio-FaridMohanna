@@ -6,7 +6,7 @@ const Body = () => {
     <div className="body">
 
         <div className="miInformacion">
-            <p> 
+            <p id="presentacion"> 
                 Hola!! 
                 Soy <b>Farid</b>, te doy la bienvenida a mi portfolio. Soy un desarrollador web, me apasiona crear sitios web bonitos y responsivos.
             </p>

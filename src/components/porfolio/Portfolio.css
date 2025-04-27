@@ -1,0 +1,22 @@
+.portfolio{
+    background-color: #111723;
+    height: 60vh;
+}
+
+.bodyPortfolio{
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.portfolioFrase{
+    color: white;
+    font-size: 4vh;
+    font-weight: 100;
+}
+
+.portfolioImg{
+    width: 40vh;
+}

@@ -1,0 +1,63 @@
+.services{
+    background-color: #1c2536;
+    height: 70vh;
+}
+
+.titleService{
+    margin: 0px;
+    padding: 0px;
+    background: 
+    linear-gradient( #ee08db, #8802c7);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 100;
+    font-size: 6vh;
+    padding: 5vh 0vh 5vh 0vh;
+    margin-left: 10vh;
+}
+
+.webDev{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 90vh;
+    height: 20vh;
+    margin-left: 20vh;
+    border: .1vh solid white;
+    border-radius: 3vh;
+    justify-content: center;
+    box-shadow: 10px 10px 50px 20px #21304b;
+    margin-bottom: 7vh;
+ 
+    
+}
+.imgYtitle{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.webDev img{
+    height: 8vh;
+    margin: 0vh 0vh 0vh 3vh;
+    
+}
+
+.webDev .imgYtitle h3{
+    margin-left: 2vh;
+    font-size: 4vh;
+    color: white;
+    font-weight: 100;
+}
+
+.webDev p{
+    margin-left: 3vh;
+    color: white;
+    font-weight: 100;
+}
+
+#ecommerceDev{
+    margin-left: 100vh;
+}

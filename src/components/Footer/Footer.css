@@ -1,0 +1,17 @@
+.footer{
+    background-color: #1c2536;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy{
+    margin: 0px;
+    padding: 0px;
+    background: 
+        linear-gradient(#ee08db, #8802c7);
+    -webkit-background-clip: text;
+    color: transparent;
+  
+}
